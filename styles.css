@@ -255,6 +255,7 @@ footer h2,
 .row-two p,
 .row-total p {
     width: 33%;
+    white-space: nowrap;
 }
 
 .row-total {
