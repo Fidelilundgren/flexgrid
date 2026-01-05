@@ -4,7 +4,7 @@ body {/*Provat flera olika och denna var den jag hitta som va mest lik*/
 }
 
 header {
-    background-color: #44E37A;
+    background-color: #3DE07E;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -96,7 +96,7 @@ så gjorde om till varsina section class
 }
 
 .button {
-    background-color: rgba(255, 53, 53, 0.822);
+    background-color: #E83F57;
     color: white;
     padding: 0.5rem;
     width: 140px;
@@ -221,7 +221,7 @@ footer h2,
 }
 
 .row-header {
-    background-color: rgba(251, 52, 52, 0.185);
+    background-color: #ED363633;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -236,7 +236,7 @@ footer h2,
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -246,7 +246,7 @@ footer h2,
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-bottom: 1rem;
 }
 
@@ -264,13 +264,14 @@ footer h2,
     justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
+    font-weight: bold;
     padding-top: 1rem;
     padding-bottom: 3rem;
     border-top: 1px solid white;
 }
 
 .button-checkout {
-    background-color: rgba(250, 80, 80, 0.822);;
+    background-color: #E83F57;
     color: white;
     font-size: 1.3rem;
     padding: 0.5rem;
@@ -278,4 +279,31 @@ footer h2,
     border-radius: 3px;
     border: 0;
     float: right; /*Gick inte att lösa på annat sätt*/
+}
+
+.row-header p:first-child,
+.row-one p:first-child,
+.row-two p:first-child,
+.row-total p:first-child {
+    text-align: left;
+}
+
+.row-header p:nth-child(2) {
+    text-align: center;
+    padding-left: 4rem;
+}
+.row-one p:nth-child(2),
+.row-two p:nth-child(2) {
+    text-align: center;
+}
+
+.row-header p:last-child {
+    text-align: right;
+    padding-right: 3.6rem;
+}
+.row-one p:last-child,
+.row-two p:last-child,
+.row-total p:last-child {
+    text-align: right;
+    padding-right: 1rem;
 }
