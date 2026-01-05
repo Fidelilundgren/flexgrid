@@ -149,6 +149,7 @@ så gjorde om till varsina section class
 footer {
     background-color: rgb(54, 52, 52);
     color: white;
+    padding: 2rem;
 }
 
 .footer-links {
@@ -158,9 +159,9 @@ footer {
     max-width: 1000px;
     width: 100%;
     height: 200px;
-    gap: 1rem;
+    gap: 3rem;
     margin: 0 auto;
-    place-items: left; /*Verkligen inte snyggt men men*/
+    justify-items: start;
     padding-bottom: 2rem;
     align-items: start;
 }
